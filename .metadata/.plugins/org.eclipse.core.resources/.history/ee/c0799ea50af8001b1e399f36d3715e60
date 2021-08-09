@@ -1,0 +1,15 @@
+package companyDetails;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) 
+	{
+		String name;
+		Scanner obj=new Scanner(System.in);
+		System.out.println("enter your name: ");
+		name=obj.next();
+	}
+
+}

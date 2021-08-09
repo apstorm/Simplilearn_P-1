@@ -1,0 +1,31 @@
+package companyDetails;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	static String name;
+	static float height;
+	static int age;
+	
+	public static void main(String[] args) 
+	{
+		
+		Scanner obj=new Scanner(System.in);
+		System.out.println("enter your name: ");
+//		name=obj.next();
+		name=obj.nextLine();
+		
+		System.out.println("enter ur age: ");
+		age=obj.nextInt();
+		
+		System.out.println("enter ur height ");
+		height=obj.nextFloat();
+		
+		System.out.println("ur name is "+name);
+		System.out.println("ur age is "+age);
+		System.out.println("ur height is "+height);
+		
+	}
+
+}

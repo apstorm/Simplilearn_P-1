@@ -1,0 +1,12 @@
+package pack1;
+
+public class MyPackage1BaseClass {
+	public int a;
+	private int b;
+	protected int c;
+	int d;
+	public void myPackage1baseClassMethd()
+	{
+		
+	}
+}
