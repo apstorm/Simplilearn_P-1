@@ -22,24 +22,29 @@ public class MyClass {
 			c=a/b;
 			System.out.println("ans:"+c);
 			
-			obj.next();
-			obj.close();
-			obj.next();
+//			obj.next();
+//			obj.close();
 			
 			
 		}
 		catch(InputMismatchException ex)
 		{
 			System.out.println("please double check if you have entered number");
-			obj.next();
-			obj.next();
+//			obj.next();
+//			obj.next();
 		}
 		catch(ArithmeticException ex)
 		{
 			System.out.println("cannot devide with zero");
+//			obj.next();
+//			obj.next();
+//			obj.next();
+		}
+		catch (Exception e) {
+			System.out.println("some error occured");
+			System.out.println("please write to : admin@mycompany.com");
 			obj.next();
-			obj.next();
-			obj.next();
+			obj.close();
 		}
 		
 	}
